@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace HMS.Areas.OPD.Controllers
 {
-    [Area("Admin")]
-    [Route("Admin/[controller]/[action]")]
+    [Area("OPD")]
+    [Route("OPD/[controller]/[action]")]
     public class DashboardController : Controller
     {
         private readonly ILogger<DashboardController> _logger;
